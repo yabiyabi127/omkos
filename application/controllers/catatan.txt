@@ -1,0 +1,44 @@
+
+		$hp = $this->input->post('hp');
+		$arrayName = array('nama' => $nama,
+							'hp' => $hp, );
+		$this->m_input->simpan($arrayName);
+
+
+		------------------------
+		CLASS DASHBOARD
+		------------------------
+		+ nama : stiring (12)
+		+ hp : stiring (12)
+		-----------------
+		+ __construct();
+		+ index();
+		+ form()
+		--------------------
+
+		------------------------
+		CLASS M_DETAIL
+		------------------------
+		+ nama : stiring (12)
+		+ hp : stiring (12)
+		-----------------
+		+ __construct();
+		+ index();
+		+ form()
+		--------------------
+
+		------------------------
+		CLASS M_HOME
+		------------------------
+		+ nama : stiring (12)
+		+ hp : stiring (12)
+		-----------------
+		+ __construct();
+		+ index();
+		+ form()
+		--------------------
+
+
+		------------------------
+		CLASS FORM
+		------------------------

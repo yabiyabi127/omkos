@@ -1,0 +1,38 @@
+.hero{
+	background-image:url('https://omkos.harikurniawan.web.id/asset/jumbotron.jpg') !important;
+	background-size: cover;
+	height: 460px;
+}
+
+.hero2{
+	background-color: #1e88e5 !important;
+	background-size: cover;
+	height: 460px;
+}
+
+.jumbotron .display-4 {
+    margin-top: 150px;
+    text-shadow: 1px 1px 1px rgba(2, 2, 2s, 1.1);
+    font-size: 70px;
+   	background-position: center;
+   	text-align: center;
+}
+.jumbotron .display-4 span {
+    font-weight: 700;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1.1);
+    color: #FF4500;
+}
+
+@media only screen and (max-width: 414px) {
+	.jumbotron .display-4 {
+	    margin-top: 150px;
+	   	background-position: center;
+	   	text-align: center;
+	   	font-size: 50px;
+	}
+	.jumbotron .display-4 span {
+	    font-weight: 700;
+	    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1.1);
+	    color: #FF4500;
+	}
+}
